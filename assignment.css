@@ -38,7 +38,7 @@
 /* mid */
 .mid{
 display: flex;
-margin: 150px;
+margin: 100px;
 margin-left: 300px;
 }
 
@@ -59,7 +59,16 @@ padding: 20px;
     
 }
 .li{
-    padding: 20px;
+    
+    padding: 10px;
+}
+.midi{
+    display: flex;
+    margin-left: 700px;
+    margin-bottom: 100px;
+}
+.midd-item{
+    margin-top: 250px;
 }
 /* down */
 .he{
@@ -80,6 +89,7 @@ padding: 20px;
     margin-top: 30px;
     text-align: center;
     
+    
 }
 .down-text{
     margin-top: 20px;
@@ -90,8 +100,9 @@ padding: 20px;
     margin-left: 10px;
 }
 .downp{
+    color: rgb(18, 117, 117);
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: 20px;
     text-align: center;
 }
 /* bottom */
