@@ -38,6 +38,7 @@
 .mid{
 display: flex;
 margin: 150px;
+margin-left: 300px;
 }
 
 .midh{
@@ -59,7 +60,7 @@ font-family: Arial, Helvetica, sans-serif;
 .li{
     padding: 20px;
 }
-/* bottom */
+/* down */
 .he{
     text-align: center;
     font-weight: 700;
@@ -69,23 +70,39 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .down{
     display: flex;
-    text-align: center;
     margin-left: 450px;
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 .down-item{
-    padding: 0 30px;
+    margin-top: 30px;
+    text-align: center;
+    
 }
+.down-text{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.downp{
+    margin-top: 15px;
+    margin-left: 30px;
+    text-align: center;
+}
+/* bottom */
 .btm{
-    background-image: url('/new-year-new-me/images/gradient1.png'), url('/new-year-new-me/images/watch.png');
+    background-image: url('./images/gradient2.png'), url('./images/watch.png');
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 60px;
     padding: 80px;
     position: relative;
-    height: 150px; 
+    height: 50px; 
+    background-size: contain;
 }
 .txt{
     margin-top: 10px;
