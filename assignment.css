@@ -101,15 +101,37 @@ font-family: Arial, Helvetica, sans-serif;
     margin-top: 60px;
     padding: 80px;
     position: relative;
-    height: 50px; 
+    height: 80px; 
     background-size: contain;
 }
 .txt{
-    margin-top: 10px;
-    margin-left: 350px;
+    
+    margin-left:450px;
     font-size: 30px;
+}
+.bth{
+    
+    font-size: 30px;
+}
+.bth{
+    
+    font-size: 35px;
 }
 .btb{
     margin-top: 10px;
-    padding: 10px 25px;
+    padding: 10px 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(27, 175, 243);
+    box-shadow: 5px 5px 5px;
+}
+.footer{
+    color: bisque;
+    border: 1px solid;
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
 }
